@@ -16,7 +16,7 @@ Bu proje, Ubuntu 22.04 üzerinde **ArduPilot** ve **Gazebo Classic 11** ile **ro
 Rover	        ✅	      Tam - 
 Boat	        ✅	      Beta  -
 Submarine	    ✅	      Gelişmiş  -
-Drone/UAV	    ⚠️	      Uçuş için optimize değil -
+Drone/UAV	    ⚠️	      Uçuş için optimize değil
 
 
 ## 🔧 Kurulum
