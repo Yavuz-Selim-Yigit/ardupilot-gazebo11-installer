@@ -12,6 +12,14 @@ Bu proje, Ubuntu 22.04 üzerinde **ArduPilot** ve **Gazebo Classic 11** ile **ro
 
 ---
 
+## 🛠 Desteklenen Simülasyonlar
+Araç Türü	    Durum	    Destek
+Rover	        ✅	      Tam
+Boat	        ✅	      Beta
+Submarine	    ✅	      Gelişmiş
+Drone/UAV	    ⚠️	      Uçuş için optimize değil
+
+
 ## 🔧 Kurulum
 
 Terminale aşağıdaki komutları girerek kurulumu başlat:
