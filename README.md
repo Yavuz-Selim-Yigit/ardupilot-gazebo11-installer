@@ -25,7 +25,7 @@ Bu proje, Ubuntu 22.04 üzerinde **ArduPilot** ve **Gazebo Classic 11** ile **ro
 Terminale aşağıdaki komutları girerek kurulumu başlat:
 
 ```bash
-git clone https://github.com/kullaniciadi/ardupilot-gazebo11-installer.git
+git clone https://github.com/Yavuz-Selim-Yigit/ardupilot-gazebo11-installer.git
 cd ardupilot-gazebo11-installer
 chmod +x install.sh
 ./install.sh
