@@ -21,5 +21,39 @@ git clone https://github.com/kullaniciadi/ardupilot-gazebo11-installer.git
 cd ardupilot-gazebo11-installer
 chmod +x install.sh
 ./install.sh
+```
 
 ---
+
+## 🧪 Simülasyon Test Komutları
+## 🛻 Rover Simülasyonu
+
+Terminal 1
+```bash
+cd ~/ardupilot
+./Tools/autotest/sim_vehicle.py -v APMrover2 -f gazebo-rover --console --map
+```
+
+Terminal 2
+```bash
+gazebo --verbose ~/ardupilot_gazebo/worlds/rover.world
+```
+
+## 🚤 Boat Simülasyonu
+
+Terminal 1
+```bash
+cd ~/ardupilot
+./Tools/autotest/sim_vehicle.py -v APMrover2 -f gazebo-boat --console --map
+```
+
+Terminal 2
+```bash
+gazebo --verbose ~/ardupilot_gazebo/worlds/boat.world
+```
+
+## 🌊 Submarine (Denizaltı) Simülasyonu
+
+```bash
+gazebo --verbose ~/ardupilot_gazebo/worlds/bluerov2.world
+```
